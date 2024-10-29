@@ -2,7 +2,6 @@
 
 QuizMe is an interactive quiz application built using Python and Tkinter. It fetches quiz questions from the Open Trivia Database and presents them to the user in a fun and engaging way. Users can answer true or false questions and keep track of their scores.
 
-![quizme_start_page.png](quizme_start_page.png)
 ![quizme_question_screen.png](quizme_question_screen.png)
 
 ## Features
