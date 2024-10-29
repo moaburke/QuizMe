@@ -46,7 +46,7 @@ class QuizSetup:
 
         # Create the main application window
         self.window = Tk()
-        self.window.title("QuizMe") # Set window title
+        self.window.title("QuizMe by Moa Burke") # Set window title
         self.window.config(padx=20, pady=30, bg=MAIN_COLOR) # Padding and background color
 
         # Display the welcome message at the top of the setup screen
@@ -68,7 +68,7 @@ class QuizSetup:
         """Creates and displays the main welcome messages at the top of the screen."""
         # Main title label
         self.welcome_message_top = Label(
-            text="QuizMe!",
+            text="QuizMe",
             width=12,
             bg=SECONDARY_COLOR,
             fg=MAIN_COLOR,
