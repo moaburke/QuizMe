@@ -31,7 +31,7 @@ class QuizInterface:
     def __init__(self, quiz_brain: QuizBrain):
         self.quiz = quiz_brain
         self.window = Tk()
-        self.window.title("QuizMe") # Title of the window
+        self.window.title("QuizMe by Moa Burke") # Title of the window
         self.window.config(width=400, height=600, padx=20, pady=20, bg=MAIN_COLOR)
 
         # Label to display the question number
